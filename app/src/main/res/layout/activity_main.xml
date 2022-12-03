@@ -124,4 +124,20 @@
         app:layout_constraintTop_toBottomOf="@+id/seekBarTip"
         tools:text="Acceptable" />
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="250dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/tvFooter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotalAmount"
+        app:srcCompat="@drawable/food_emoji" />
+    <!--        tools:layout_editor_absoluteX="138dp"-->
+<!--        tools:layout_editor_absoluteY="411dp" />-->
+
 </androidx.constraintlayout.widget.ConstraintLayout>
